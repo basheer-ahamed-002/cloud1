@@ -1,0 +1,82 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+.card{
+    width: 550px;
+    background-image: linear-gradient(rgb(0, 174, 255),white);
+    border-radius: 15px;
+    margin: 100px auto;
+    padding: 10px 15px;
+    color: black;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .search input{
+    border: 0;
+    outline: none;
+    background-color: white;
+    padding: 10px 25px;
+    margin-right: 20px;
+    font-size: 16px;
+    height: 60px;
+    border-radius: 20px;
+    width: 400px;
+ }
+ .search button{
+    border: none;
+    outline: none;
+    background: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+ }
+ .search button .img{
+    width: 30px;
+ }
+ .para img{
+    width: 150px;
+    height: 150px;
+    margin: 50px ;
+    margin-bottom: 15px;
+ }
+.dreege{
+    font-size: 55px;
+}
+.city{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.humidity{
+    display: flex;
+    justify-content: space-around;
+}
+.cloud{
+    display: flex;
+}
+.main{
+    margin-top: 10%;
+}
+.hum{
+    font-size: 30px;
+    
+}
+p{
+    font-size: 20px;
+    
+}
+.km{
+    font-size: 30px;
+}
